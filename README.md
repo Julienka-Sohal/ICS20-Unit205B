@@ -1,4 +1,4 @@
-# ICS2O-PWA-Template-HTML
+# ICS2O-Unit205B
 
 [![Mr Coxall's Super Linter](https://github.com/Julienka-Sohal/ICS20-Unit205B/workflows/Mr%20Coxall's%20Super%20Linter/badge.svg)](https://github.com/Julienka-Sohal/ICS20-Unit205B/actions/)
 
