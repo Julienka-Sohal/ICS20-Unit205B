@@ -16,19 +16,19 @@ if (navigator.serviceWorker) {
 }
 
 /*
-* This function calculates the amutn of hours worked and the perhour pay
-*/
+ * This function calculates the amutn of hours worked and the perhour pay
+ */
 function enterClicked() {
- //input
- const hourWorked = document.getElementById("hour-worked").value
- const perHour = document.getElementById("per-hour").value
- const incomeTax = 0.18
- const takeHomeSalary = perHour * hourWorked - perHour * hourWorked * incomeTax
- const govSalary = perHour * hourWorked * incomeTax
+  //input
+  const hourWorked = document.getElementById("hour-worked").value
+  const perHour = document.getElementById("per-hour").value
+  const incomeTax = 0.18
+  const takeHomeSalary = perHour * hourWorked - perHour * hourWorked * incomeTax
+  const govSalary = perHour * hourWorked * incomeTax
 
- // output
- document.getElementById("money").innerHTML =
-   "your pay is $" + takeHomeSalary.toFixed(2)
- document.getElementById("gov-money").innerHTML =
-   "The government will take $" + govSalary.toFixed(2)
+  // output
+  document.getElementById("money").innerHTML =
+    "your pay is $" + takeHomeSalary.toFixed(2)
+  document.getElementById("gov-money").innerHTML =
+    "The government will take $" + govSalary.toFixed(2)
 }
